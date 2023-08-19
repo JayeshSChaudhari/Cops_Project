@@ -8,21 +8,27 @@ export default function StartInterface() {
 
 
 
-  return (
-    
-
-    <>
+    return (
 
 
-    <button className="btnStart">Start</button>
-    <button className="btnStart">Exit</button>
-    
-    
-    
-    
-    
-    </>
+        <>
+            <div className="WelcomeScr">
+                {/* <p>Welcome to the game</p> */}
 
 
-  )
+                <div className="btnStack">
+
+                    <button className='btnStart' id="btnStart1">Start</button>
+                    <button className='btnStart' id="btnStart2">Exit</button>
+
+                </div>
+
+
+            </div>
+
+
+        </>
+
+
+    )
 }
