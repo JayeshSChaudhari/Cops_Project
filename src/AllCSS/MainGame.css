@@ -6,10 +6,31 @@
 
 
 .GameBox{
+    margin: auto;
     display: grid;
-    
+    grid-template-rows: 10em 10em  ;
+    grid-template-columns: 10em 10em  ;
+    position: absolute;
+    top: 8rem;
 
 }
+
+
+
+
+
+#displayCompAndUser{
+    border: 2px solid black;
+}
+
+
+#ChooseOne{
+    border: 2px solid black;
+
+}
+
+
+
 
 
 

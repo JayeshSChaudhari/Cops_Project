@@ -7,7 +7,7 @@ function App() {
 
 
     <>
-    <StartInterface/>
+    {/* <StartInterface/> */}
     <MainGame/>
     
     </>
